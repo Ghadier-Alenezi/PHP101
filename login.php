@@ -29,14 +29,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <div>
         <label for="username">Username</label>
-        <input name="username" id="username">
+        <input class="form-control" name="username" id="username">
     </div>
-    <div>
+    <div class="form-group">
         <label for="password">Password</label>
-        <input type="password" name="password" id="password">
+        <input class="form-control" type="password" name="password" id="password">
     </div>
 
-    <button>Log in</button>
+    <button class="btn">Log in</button>
 </form>
 
 
